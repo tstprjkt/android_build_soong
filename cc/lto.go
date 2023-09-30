@@ -133,6 +133,7 @@ func (lto *lto) flags(ctx BaseModuleContext, flags Flags) Flags {
 				"-Wl,-plugin-opt,-import-instr-limit=5",
 				"-Wl,-plugin-opt=O3",
                                 "-Wl,-O3")
+			}
 
 	}
 	return flags
